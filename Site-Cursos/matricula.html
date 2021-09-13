@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="matricula.html">Matricular-se</a></li>
+        <input type="search" name="search" placeholder="Search...">
+    </ul>
+    <form name="compra">
+        <div>
+            <h2>Insira seu Dados</h2>
+                <div > 
+                    Nome <br>
+                    <input type="text" name="" id="nome" maxlength="100" minlength="8" required placeholder="Ex: Bernardo Villanova de Santana">
+                </div>
+                    <br> E-mail <br>
+                    <input type="email" name="" id="email" required placeholder="Ex: email@exemplo.com"> <br>
+                    <br> Celular <br>  
+                    <input type="number" name="tel" maxlength="12" required placeholder="Ex: 000000000000" > <br>
+                    <br> CEP <br> 
+                    <input type="number" name="cep" maxlength="11" required placeholder="Ex: 00000000000" > <br>
+                    
+                    <br> <h2> Escolha um curso </h2> <br>
+                    <input type="radio" name="curso" id="lev" value="0" checked> Programação <br> <br> <br>
+                    <input type="radio" name="curso" id="moderada" value="1" required> Enfermagem <br> <br> <br>
+                    <input type="radio" name="curso" id="intensa" value="2"> Mecatrônica <br> <br> <br>
+                    <input type="radio" name="curso" id="intensa" value="3"> Administração <br> <br> <br>
+                    <input type="radio" name="curso" id="intensa" value="4"> Contabilidade <br> <br> <br>.
+                    <input type="submit" value="Enviar" onclick="Clicar()">
+                    <input type="reset" value="Limpar"> <br><br>
+        </div>
+    </form>
+    <footer>
+        © 2021 Bernardo Villanova de Santana 
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>

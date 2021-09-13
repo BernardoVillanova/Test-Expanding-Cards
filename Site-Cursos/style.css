@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 50px;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    margin: 0;
+    opacity: 0;
+    color: black;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;   
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+li a:hover {
+    background-color: #C0C0C0;
+}
+
+strong {
+    color: 	#A9A9A9;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #4b6584;
+}
+
+input[type=search] {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=number],[type=text], [type=email] {
+    width: 100%;
+    height: 40px;
+  }
+
+input[type=search]:focus {
+    width: 70%;
+}
+
+input:focus {
+    background-color: lightblue;
+  }
+
+input[type=submit] {
+    background-color: #26de81;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type=reset] {
+    background-color: #fc5c65;
+    padding: 10px;
+    width: 300px;
+}
+
+footer {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    word-spacing: 10px;
+    padding-top: 20px;
+    width: 100%;
+}
